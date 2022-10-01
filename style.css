@@ -1,0 +1,56 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+#navbar {
+  width: calc(100%-25.5px);
+  padding: 10px;
+  border: 5px gray solid;
+  border-radius: 8.5px;
+  margin-bottom: 30px;
+}
+.content {
+  margin-left: 30px;
+}
+#nright {
+  float: right;
+}
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: calc(100% - 20px);
+  padding: 10px;
+  background-color: #262626;
+  border: 5px solid #262626;
+  border-radius: 5px;
+  text-align: center;
+}
+.setado {
+      color: #fff;
+    font-family: 'SegoeUiLight', 'Segoe UI', 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', 'Trebuchet MS', Verdana, sans-serif;
+}
+/* unvisited link */
+.setado a:link {
+    text-decoration: none;
+    color: rgb(45, 220, 220);
+  }
+  
+  /* visited link */
+  .setado   a:visited {
+    text-decoration: none;
+    color: rgb(133, 55, 207);
+  }
+  
+  /* mouse over link */
+  .setado  a:hover {
+    text-decoration: underline;
+    color: rgb(3, 175, 175);
+  }
+  
+  /* selected link */
+  .setado  a:active {
+    text-decoration: none;
+    color: rgb(15, 15, 209);
+  }
+}
